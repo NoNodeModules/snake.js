@@ -57,8 +57,15 @@ function initializeField() {
   }
 }
 
+// Print the current state of the field.
 function printField() {
   for (let row of field) {
     console.log(row);
   }
+}
+
+// Clear the console and print the current state of the field.
+function updateFrame() {
+  console.clear();
+  printField();
 }
